@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>زيت زيتون دكتور أبو النصر</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="brand">
+
+            <img src="images/dr . sourdough.png" alt="لوجو دكتور أبو النصر">
+
+            <div class="brand-text">
+
+                <span>زيت زيتون</span>
+
+                <strong>دكتور أبو النصر</strong>
+
+            </div>
+
+        </div>
+
+
+        <nav id="navLinks">
+
+            <a href="#home">الرئيسية</a>
+
+           
+
+        
+
+            <a href="#quality">الجودة</a>
+
+            <a href="#contact">تواصل معنا</a>
+
+            <!-- زر السلة -->
+            <button class="cart-icon-btn" id="cartBtn">
+                🛒
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+
+        </nav>
+
+
+
+        <button id="menuBtn" class="menu-btn">
+            ☰
+        </button>
+
+    </header>
+
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+
+        <div class="hero-content">
+
+
+            <!-- الموسم -->
+
+            <p class="season">
+                عصرة موسم ٢٠٢٦
+            </p>
+
+
+            <!-- العنوان -->
+
+            <h1>
+                من قلب الزيتون...
+                <br>
+                <span>نصنع الفرق</span>
+            </h1>
+
+
+            <p class="hero-description">
+           زيت زيتون بكر ممتاز، يُعصر بارداً خلال ساعات من القطف للحفاظ على النكهة والفوائد الغذائية كاملة.
+            </p>
+
+
+            <!-- ================= BOTTLE ================= -->
+
+            <div class="bottle-container">
+
+                <img
+                    id="mainBottle"
+                    src="images/نصف لتر.png"
+                    alt="زيت زيتون دكتور أبو النصر"
+                >
+
+            </div>
+
+
+            <!-- ================= SIZES ================= -->
+
+            <div class="sizes-container">
+
+
+                <button
+                    class="size-btn active"
+                    data-size="500"
+                    data-price="320"
+                    data-image="images/نصف لتر.png"
+                >
+                    <span>½</span>
+                    <small>لتر</small>
+                </button>
+
+
+                <button
+                    class="size-btn"
+                    data-size="1"
+                    data-price="580"
+                    data-image="images/1لتر.png"
+                >
+                    <span>1</span>
+                    <small>لتر</small>
+                </button>
+
+
+                <button
+                    class="size-btn"
+                    data-size="2"
+                    data-price="1080"
+                    data-image="images/2لتر.png"
+                >
+                    <span>2</span>
+                    <small>لتر</small>
+                </button>
+
+
+                <button
+                    class="size-btn"
+                    data-size="5"
+                    data-price="2600"
+                    data-image="images/5لتر.png"
+                >
+                    <span>5</span>
+                    <small>لتر</small>
+                </button>
+
+            </div>
+
+
+            <!-- ================= PRICE ================= -->
+
+            <div class="price-box">
+
+                <div>
+
+                    <strong id="price">
+                        320
+                    </strong>
+
+                    <span>
+                        جنيه
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= BUTTON ================= -->
+
+        <div class="action-buttons">
+
+            <button class="buy-btn"
+            id="buyNowBtn">اشترٍالأن</button>
+
+            <button class="cart-btn" id="addToCartBtm">أضف الى السلة</button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= product information ================= -->
+
+    <section class="product-info" id="product-info">
+
+      <div class="accordion">  
+
+        <!--من نحن-->
+
+        <div class="accordion-item">
+
+            <button class="accordion-header">
+
+                <span>من نحن</span>
+
+                <span class="arrow">⌄</span>
+
+            </button>
+
+            <div class="accordion-content">
+
+                <p>
+ زيت زيتون دكتور ابو النصر علامة مصرية عائلية بدأت من مزرعة صغيرة في الفيوم، ونحرص على أن يصل الزيت من شجرتنا لمائدتكم بأقل تدخل ممكن، حفاظاً على نكهته وفوائده الطبيعية.
+                </p>
+
+            </div>
+
+        </div>
+        
+        <!--عن المنتج-->
+
+        <div class="accordion-item">
+
+            <button class="accordion-header">
+
+                <span>
+                    عن المنتج
+                </span>
+
+                <span class="arrow">⌄</span>
+
+            </button>
+
+            <div class="accordion-content">
+
+                <p>
+ زيتنا يُنتَج من أشجار زيتون مصرية عمرها عقود، يُقطف يدوياً ويُعصر على البارد دون أي إضافات أو معالجة كيميائية<br>                   
+حموضة منخفضة، ولون ذهبي مائل للأخضر، ونكهة تجمع بين الحدة الخفيفة والعطر الطازج.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- طريقة الاستخلاص -->
+
+        <div class="accordion-item">
+
+            <button class="accordion-header">
+
+                <span>طريقة الاستخلاص</span>
+
+                <span class="arrow">⌄</span>
+
+            </button>
+
+            <div class="accordion-content">
+
+                <p>
+                    يتم قطف الزيتون يدوياً في ذروة النضج، ثم يُنقل مباشرة للمعصرة ويُعصر بارداً خلال ساعات قليلة من القطف،<br>
+                    دون استخدام حرارة أو مذيبات، للحفاظ على الطعم الطبيعي والقيمة الغذائية.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- الفوائد الصحية -->
+
+        <div class="accordion-item">
+
+            <button class="accordion-header">
+
+                <span>الفوائد الصحية</span>
+
+                <span class="arrow">⌄</span>
+
+            </button>
+
+            <div class="accordion-content">
+
+                <p>
+   <br> في المطبخ والأكل الصحي:
+
+ أضفه للسلطات، الأجبان، الفول، والمقبلات لإعطاء طعم غني وفائدة صحية مباشرة.<br>
+◦ 
+◦ ​للطبخ والقلي :<br>
+(زيت زيتون القلي العبوه الحمراء)
+ عملنالكم لاول مره زيت زيتون ابو النصر للقلي والطبخ لاستخدامه  في التتبيل والطهي <br>
+ بدون التأثر بدرجات الحراره مع الاحتفاظ بكامل قيمته الغذائيه  للتمتع ببديل صحي للزيوت المهدرجة.<br>
+
+•  ​للبشرة والشعر:<br>
+ (زيت زيتون ابو النصر المدعم بفيتامين د)<br>
+◦ ​ ترطيب ودعم الشعر: يُستخدم كحمام زيت طبيعي مرتين أسبوعياً لتغذية البصيلات وتقليل الجفاف والإجهاد.<br>
+◦ 
+◦ ​نضارة البشرة: قطرات قليلة قبل النوم  لترطيب البشرة وحمايتها من الجفاف.<br>
+
+•  ​للمفاصل وصحة الجسم:(زيت زيتون ابو النصر المدعم بفيتامين د)<br>
+• 
+◦ ​تدليك المساج: ممتاز للمساج والتدليك الدافئ لتخفيف آلام المفاصل وشد العضلات.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+        <div class="about-content">
+
+
+            <div class="about-image">
+
+                <img
+                    src="images/file_00000000583881f4952f6c095833d702.png"
+                    alt="زيتون وزيت زيتون"
+                >
+
+            </div>
+
+
+            <div class="about-text">
+
+                <h3>
+                    لأن الجودة تبدأ من المصدر
+                </h3>
+
+                <p>
+                    نحرص على اختيار ثمار الزيتون
+                    بعناية والاهتمام بكل مرحلة
+                    لنقدم لكم زيت زيتون بجودة
+                    تليق بثقتكم.
+                </p>
+
+                <p>
+                    من قلب الزيتون... نصنع الفرق.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= QUALITY ================= -->
+
+    <section class="quality" id="quality">
+
+        <div class="section-title">
+
+            <span>
+                لماذا نحن؟
+            </span>
+
+            <h2>
+                الجودة تبدأ من المصدر
+            </h2>
+
+        </div>
+
+
+        <div class="quality-cards">
+
+
+            <div class="quality-card">
+
+                <div>🌿</div>
+
+                <h3>
+                    اختيار بعناية
+                </h3>
+
+                <p>
+                    نختار ثمار الزيتون بعناية
+                    في كل موسم.
+                </p>
+
+            </div>
+
+
+            <div class="quality-card">
+
+                <div>🫒</div>
+
+                <h3>
+                    عصرة موسم ٢٠٢٦
+                </h3>
+
+                <p>
+                    نهتم بكل تفاصيل موسم العصر.
+                </p>
+
+            </div>
+
+
+            <div class="quality-card">
+
+                <div>✨</div>
+
+                <h3>
+                    جودة نهتم بها
+                </h3>
+
+                <p>
+                    كل خطوة تتم بعناية واهتمام.
+                </p>
+
+            </div>
+
+
+            <div class="quality-card">
+
+                <div>✓</div>
+
+                <h3>
+                    ثقة تستحقها
+                </h3>
+
+                <p>
+                    هدفنا تقديم منتج تثق به.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="products" id="products">
+
+        <div class="section-title">
+
+            <h2>
+                اختر الحجم المناسب لك
+            </h2>
+
+        </div>
+
+
+        <div class="products-text">
+
+            <p>
+                اختر الحجم من الواجهة الرئيسية
+                لمعرفة السعر المناسب لكل عبوة.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+    <div class="contact-content">
+
+        <span>
+            تواصل معنا
+        </span>
+
+        <h2>
+            يسعدنا تواصلك معنا
+        </h2>
+
+        <p>
+            للاستفسار عن منتجاتنا أو للطلب،
+            تواصل معنا عبر أي من الوسائل التالية.
+        </p>
+
+
+        <div class="contact-info">
+
+
+            <!-- الهاتف -->
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    📞
+                </div>
+
+                <h3>
+                    الهاتف
+                </h3>
+
+                <a href="tel:01277371995">
+                    01277371995
+                </a>
+
+                <a href="tel:01272154551">
+                    01272154551
+                </a>
+                
+
+            </div>
+
+
+            <!-- واتساب -->
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    💬
+                </div>
+
+                <h3>
+                    واتساب
+                </h3>
+
+                <a
+                    href="https://wa.me/201277371995"
+                    target="_blank"
+                >
+                    تواصل معنا عبر واتساب
+                </a>
+
+            </div>
+
+
+            <!-- البريد -->
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    ✉
+                </div>
+
+                <h3>
+                    البريد الإلكتروني
+                </h3>
+
+                <a href="mailto:info@example.com">
+                    info@example.com
+                </a>
+
+            </div>
+
+
+            <!-- الموقع -->
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                🌳
+                </div>
+
+                <h3>
+                    المصدر
+        
+                </h3>
+
+                <p>
+                    الفيوم - مصر
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- صفحات التواصل -->
+
+        <h3>
+            تابعنا على صفحاتنا
+        </h3>
+
+
+        <div class="social-links">
+
+            <a href="https://www.facebook.com/share/1ckPpM1Tov/" target="_blank">
+                فيسبوك
+            </a>
+
+            <a href="https://www.instagram.com/drabuelnasrproducts?igsi=MWl1YzI4bHl4a21pbA==" target="_blank">
+                إنستجرام
+            </a>
+
+            <a href="https://www.tiktok.com/@dr.ahmedabouelnasr?_r=1&_t=ZS-990oCE4h9S1" target="_blank">
+                تيك توك
+            </a>
+
+        </div>
+
+
+        <a
+            href="tel:01277371995"
+            class="contact-main-btn"
+        >
+            تواصل معنا الآن
+        </a>
+
+    </div>
+
+</section>
+
+
+
+    <footer>
+
+        <h3>
+            زيت زيتون دكتور أبو النصر
+        </h3>
+
+        <p>
+            أختيار بعناية ..وثقة تدوم
+        </p>
+
+        <small>
+            © ٢٠٢٦ جميع الحقوق محفوظة
+        </small>
+
+    </footer>
+
+
+
+<!-- ================= ORDER MODAL ================= -->
+
+<div class="order-modal" id="orderModal">
+
+    <div class="order-box">
+
+        <!-- عنوان النافذة -->
+
+        <div class="order-header">
+
+            <h2>إتمام الطلب</h2>
+
+        </div>
+
+
+        <!-- ملخص الطلب -->
+
+        <div class="order-summary">
+
+            <div id="orderItems">
+                <!-- المنتجات هتظهر هنا تلقائيًا -->
+            </div>
+
+            <div class="order-total">
+
+                <strong>الإجمالي</strong>
+
+                <strong id="orderTotal">0 ج.م</strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- بيانات العميل -->
+
+        <div class="order-form">
+
+            <label for="fullName">الاسم بالكامل</label>
+
+            <input
+                type="text"
+                id="fullName"
+                placeholder="مثال: أحمد محمد"
+            >
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="phone">رقم الهاتف</label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="01xxxxxxxxx"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="governorate">المحافظة</label>
+
+                    <select id="governorate">
+
+                        <option value="">اختر المحافظة</option>
+
+                        <option>القاهرة</option>
+                        <option>الجيزة</option>
+                        <option>الإسكندرية</option>
+                        <option>القليوبية</option>
+                        <option>الدقهلية</option>
+                        <option>الشرقية</option>
+                        <option>الغربية</option>
+                        <option>المنوفية</option>
+                        <option>البحيرة</option>
+                        <option>كفر الشيخ</option>
+                        <option>دمياط</option>
+                        <option>بورسعيد</option>
+                        <option>الإسماعيلية</option>
+                        <option>السويس</option>
+                        <option>شمال سيناء</option>
+                        <option>جنوب سيناء</option>
+                        <option>البحر الأحمر</option>
+                        <option>مطروح</option>
+                        <option>الوادي الجديد</option>
+                        <option>الفيوم</option>
+                        <option>بني سويف</option>
+                        <option>المنيا</option>
+                        <option>أسيوط</option>
+                        <option>سوهاج</option>
+                        <option>قنا</option>
+                        <option>الأقصر</option>
+                        <option>أسوان</option>
+
+                    </select>    
+
+                </div>
+
+            </div>
+
+
+            <!-- العنوان -->
+
+            <label for="address">العنوان بالتفصيل</label>
+
+            <textarea
+                id="address"
+                placeholder="الشارع، رقم العمارة، الحي، علامة مميزة"
+            ></textarea>
+
+
+            <!-- الملاحظات -->
+
+            <label for="notes">ملاحظات (اختياري)</label>
+
+            <textarea
+                id="notes"
+                placeholder="مثال: التسليم مساءً"
+            ></textarea>
+
+
+            <!-- طريقة الدفع -->
+
+            <div class="payment-section">
+
+                <h3>طريقة الدفع</h3>
+
+                <label class="payment-option">
+
+                    <input
+                        type="radio"
+                        name="payment"
+                        value="cash"
+                        checked
+                    >
+
+                    <span>💵 الدفع عند الاستلام (كاش)</span>
+
+                </label>
+
+
+                <label class="payment-option">
+
+                    <input
+                        type="radio"
+                        name="payment"
+                        value="card"
+                    >
+
+                    <span>💳 بطاقة ائتمان / فيزا</span>
+
+                </label>
+
+
+                <label class="payment-option">
+
+                    <input
+                        type="radio"
+                        name="payment"
+                        value="wallet"
+                    >
+
+                    <span>📱 محفظة إلكترونية</span>
+
+                </label>
+
+            </div>
+
+
+            <!-- الأزرار -->
+
+            <div class="order-buttons">
+
+                <button
+                    type="button"
+                    class="back-btn"
+                    id="backBtn"
+                >
+                    رجوع
+                </button>
+
+
+                <button
+                    type="button"
+                    class="confirm-btn"
+                    id="confirmOrderBtn"
+                >
+                    تأكيد الطلب
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= CART SIDEBAR ================= -->
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<div class="cart-sidebar" id="cartSidebar">
+
+    <!-- رأس السلة -->
+
+    <div class="cart-header">
+
+        <h2>سلة المشتريات</h2>
+
+        <button
+            class="close-cart"
+            id="closeCartBtn"
+        >
+            ×
+        </button>
+
+    </div>
+
+
+    <!-- المنتجات -->
+
+    <div
+        class="cart-products"
+        id="cartProducts"
+    >
+        <!-- المنتجات هتظهر هنا تلقائيًا -->
+    </div>
+
+
+    <!-- أسفل السلة -->
+
+    <div class="cart-footer">
+
+        <div class="cart-total-box">
+
+            <strong>
+                الإجمالي
+            </strong>
+
+            <strong id="cartTotal">
+                0 ج.م
+            </strong>
+
+        </div>
+
+
+        <button
+            class="checkout-btn"
+            id="checkoutBtn"
+        >
+            إتمام الطلب
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
